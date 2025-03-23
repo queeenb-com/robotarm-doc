@@ -33,20 +33,20 @@ http://queeenb.local:5000
 ### 2. 接続
 まずロボットを起動するために、向かって右にある赤いボタンを押します。
 
-![ロボットの右側のボタンの画像を入れる](./_images/desktop_icon.png)
+![ロボットの右側のボタンの画像を入れる](/images/desktop_icon.png)
 
 左上の三つのボタンから「制御」のボタンをクリックして下記のページに移動します。
-![](_images/discrip-ver1.0-controlingpage.png)<br>
+![](/images/discrip-ver1.0-controlingpage.png)<br>
 
 
 左上のバーの中に「接続」というボタンを押してください。
-![ロボットの右側のボタンの画像を入れる](_images/discrip-ver1.0-notconnection.png)
+![ロボットの右側のボタンの画像を入れる](/images/discrip-ver1.0-notconnection.png)
 
 <br>
 <br>
 
 下記のように「成功」とでてくれば接続は完了です。
-![成功したときの画像を入れる](_images/discrip-ver1.0-conectionclear.png)
+![成功したときの画像を入れる](/images/discrip-ver1.0-conectionclear.png)
   
 
 
@@ -60,10 +60,10 @@ http://queeenb.local:5000
 ### 1. 自動化プロトコルを準備する
 #### a. テンプレートかされた自動化のプロトコルを使う（配布されているjson ファイルを使って自動化を実施する）
 配布された自動化プロトコルを実行する際には、右上にある「ロード」ボタンを押します。
-![右上の三つのボタンの画像をはる](_images/discrip-ver1.0-beforeaddingnodes.png)
+![右上の三つのボタンの画像をはる](images/discrip-ver1.0-beforeaddingnodes.png)
 
 そうするとファイルを選択する画面へと切り替わるので、配布されたjson ファイルを選択します。
-![json ファイルを選択した画面をはる](_images/discrip-ver1.0-addingjsonfile.png)
+![json ファイルを選択した画面をはる](images/discrip-ver1.0-addingjsonfile.png)
 
 これで自動化プロトコルを図表化して用意できました。 次は [こちら](##)に飛んでください。
 
@@ -76,10 +76,10 @@ http://queeenb.local:5000
 
 ノードを用いて自分だけの自動化プロトコルを作ってみましょう。<br>
 たとえば右側の中にある「移動系」をクリックすると 「指定座標移動」と「チップ排出」というノードを追加することができます。追加するためには、追加したいノードを押しながらドラッグアンドドロップを右側のドット方眼の方に追加してみましょう。
-![](_images/discrip-ver1.0-nodes.png)<br>
+![](images/discrip-ver1.0-nodes.png)<br>
 
 <video width="640" controls>
-<source src="_videos/discrip-ver1.0-draganddrop.mp4" type="video/mp4">
+<source src="videos/discrip-ver1.0-draganddrop.mp4" type="video/mp4">
 お使いのブラウザは動画の再生に対応していません。
 </video>
 
@@ -94,7 +94,7 @@ commentout for claude （claude さんへここにあたらしいぺーじであ
 右下の実行ボタンを押すことで実際にロボットがノードに従って自動化のプロトコルを実施します。
 
 <video width="640" controls>
-<source src="_videos/discrip-ver1.0-execution.mp4" type="video/mp4">
+<source src="videos/discrip-ver1.0-execution.mp4" type="video/mp4">
 お使いのブラウザは動画の再生に対応していません。
 </video>
 
@@ -112,4 +112,4 @@ commentout for claude （claude さんへここにあたらしいぺーじであ
 3. 展開したフォルダ内の全ファイルを、`queeenb.exe` があるフォルダにドラッグアンドドロップします。
 4. 「置き換え」を選択して更新を完了します。
 
-![アップデート手順](./_images/update_process.png)
+![アップデート手順](images/update_process.png)
