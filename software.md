@@ -23,7 +23,7 @@ http://queeenb.local:5000
 デスクトップにあるアイコンをダブルクリックします。  
 ![デスクトップアイコン](./_images/desktop_icon.png)<br>
 アプリケーションが開くと下記のような状態になります。
-![](_images/discrip-ver1.0-fisrtpage.png)<br>
+![](./_images/discrip-ver1.0-fisrtpage.png)<br>
 
 <br>
 > **注意**
@@ -33,7 +33,7 @@ http://queeenb.local:5000
 ### 2. 接続
 まずロボットを起動するために、向かって右にある赤いボタンを押します。
 
-![ロボットの右側のボタンの画像を入れる](/images/desktop_icon.png)
+![ロボットの右側のボタンの画像を入れる](_images/desktop_icon.png)
 
 左上の三つのボタンから「制御」のボタンをクリックして下記のページに移動します。
 ![](_images/discrip-ver1.0-controlingpage.png)<br>
@@ -113,8 +113,5 @@ http://queeenb.local:5000
 2. ダウンロードしたzipファイルを展開します。
 3. 展開したフォルダ内の全ファイルを、`queeenb.exe` があるフォルダにドラッグアンドドロップします。
 4. 「置き換え」を選択して更新を完了します。
-
-![アップデート手順](_images/update_process.png)
-
 
 

@@ -8,4 +8,4 @@
 - [ハードウェア](./hardware.md) - 機器の取り扱い方法
 
 ## サポート情報
-問題が発生した場合は、support@example.com までご連絡ください。
+問題が発生した場合は、info( at mark) queeen-b.com までご連絡ください。
