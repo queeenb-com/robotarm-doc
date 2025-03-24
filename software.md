@@ -23,7 +23,7 @@ http://queeenb.local:5000
 デスクトップにあるアイコンをダブルクリックします。  
 ![デスクトップアイコン](./_images/desktop_icon.png)<br>
 アプリケーションが開くと下記のような状態になります。
-![](_images/discrip-ver1.0-fisrtpage.png)<br>
+![](./_images/discrip-ver1.0-fisrtpage.png)<br>
 
 <br>
 > **注意**
