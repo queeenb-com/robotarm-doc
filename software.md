@@ -85,20 +85,22 @@ http://queeenb.local:5000
 
 このように左側のノードを追加して組み合わせることでにあるノードを組み合わせて自分だけの自動化のプロトコルを作ることができます。
 
-commentout for claude （claude さんへここにあたらしいぺーじである、「実際にページをつくてみる」みたいなことを挿入してほしい）
+詳しいノードの対応表は下記のページから選んで実施してください。
+[ノード詳細ガイド](nodesdetails.md) 
+
 
 
 ### 2. 自動化プロトコルを実行する
 自動化のプロトコルがノードによって表現できたあとは、あとは実行です。
 
 右下の実行ボタンを押すことで実際にロボットがノードに従って自動化のプロトコルを実施します。
-
+   git add nodesdetails.md
+   git commit -m "Add new page: nodesdetails"
+   git push
 <video width="640" controls>
 <source src="_videos/discrip-ver1.0-execution.mp4" type="video/mp4">
 お使いのブラウザは動画の再生に対応していません。
 </video>
-
-詳しいプロトコルの対応表は下記のページから選んで実施してください。
 
 
 
@@ -112,4 +114,4 @@ commentout for claude （claude さんへここにあたらしいぺーじであ
 3. 展開したフォルダ内の全ファイルを、`queeenb.exe` があるフォルダにドラッグアンドドロップします。
 4. 「置き換え」を選択して更新を完了します。
 
-![アップデート手順](images/update_process.png)
+
