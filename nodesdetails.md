@@ -67,7 +67,7 @@
 
 ## 4. ノードを使って自動化のプロトコルを組む
 コロニーピッキングを想定したノードを見ながら作り方について学んでみましょう。
-![sample nodes](/robotarm-doc/images/nodedetails_samplenodes.png)
+![sample nodes](images/nodedetails_samplenodes.png)
 基本的には右に行くほど次のノードに進み、縦はループにおけるノードの実施順を表します。
 ### 4.1 チップケースのデータフレームを作成する
 最初のノードは「データフレーム作成」を用いたチップケースの穴の座標を集めた行列を作ります。
