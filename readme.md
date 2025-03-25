@@ -23,7 +23,7 @@
    - 各種ノードの詳細な使い方
    - 実践的な活用例
 
-<div style="border-left: 4px solid #ffd700; background:rgb(234, 233, 228); padding: 15px; margin: 20px 0; border-radius: 5px;">
+<div style="border-left: 4px solid #ffd700; background:rgb(230, 210, 172); padding: 15px; margin: 20px 0; border-radius: 5px;">
   <p style="margin: 0; font-size: 1.1em;">
     💡 <strong>Tips:</strong> 初めてお使いの方は、必ずハードウェアの章から順番に読み進めてください。<br>
     各章は前の章の内容を理解していることを前提に解説しています。
