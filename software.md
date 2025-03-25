@@ -30,22 +30,26 @@ http://queeenb.local:5000
 > 
 > アイコンを押すと黒いウィンドウ（ターミナル）がでてきますが、こちらは閉じるボタンを押さずに、最小化ボタン押してください。
 <br>
+
 ### 2. 接続
 まずロボットを起動するために、向かって右にある赤いボタンを押します。
 
 ![ロボットの右側のボタンの画像を入れる](images/discrip-ver1.0-notconnection.png)
 
 左上の三つのボタンから「制御」のボタンをクリックして下記のページに移動します。
+
 ![](images/discrip-ver1.0-controlingpage.png)<br>
 
 
 左上のバーの中に「接続」というボタンを押してください。
+
 ![ロボットの右側のボタンの画像を入れる](images/discrip-ver1.0-notconnection.png)
 
 <br>
 <br>
 
 下記のように「成功」とでてくれば接続は完了です。
+
 ![成功したときの画像を入れる](images/discrip-ver1.0-conectionclear.png)
   
 
@@ -57,12 +61,15 @@ http://queeenb.local:5000
 
 - 自動化のプロトコルをノードなどを用いて図表化する
 - 繰り返し回数を
+
 ### 1. 自動化プロトコルを準備する
 #### a. テンプレートかされた自動化のプロトコルを使う（配布されているjson ファイルを使って自動化を実施する）
 配布された自動化プロトコルを実行する際には、右上にある「ロード」ボタンを押します。
+
 ![右上の三つのボタンの画像をはる](images/discrip-ver1.0-beforeaddingnodes.png)
 
 そうするとファイルを選択する画面へと切り替わるので、配布されたjson ファイルを選択します。
+
 ![json ファイルを選択した画面をはる](images/discrip-ver1.0-addingjsonfile.png)
 
 これで自動化プロトコルを図表化して用意できました。 次は [こちら](##)に飛んでください。
@@ -91,12 +98,10 @@ http://queeenb.local:5000
 
 
 ### 2. 自動化プロトコルを実行する
-自動化のプロトコルがノードによって表現できたあとは、あとは実行です。
+自動化のプロトコルがノードによって表現できたあとは実行です。
 
 右下の実行ボタンを押すことで実際にロボットがノードに従って自動化のプロトコルを実施します。
-   git add nodesdetails.md
-   git commit -m "Add new page: nodesdetails"
-   git push
+
 <video width="640" controls>
 <source src="videos/discrip-ver1.0-execution.mp4" type="video/mp4">
 お使いのブラウザは動画の再生に対応していません。
@@ -111,7 +116,10 @@ http://queeenb.local:5000
 
 1. 公式サイトから最新のzipファイルをダウンロードします。
 2. ダウンロードしたzipファイルを展開します。
-3. 展開したフォルダ内の全ファイルを、`queeenb.exe` があるフォルダにドラッグアンドドロップします。
+3. 展開したフォルダを、デスクトップにドラッグアンドドロップします。
 4. 「置き換え」を選択して更新を完了します。
 
-
+<video width="640" controls>
+<source src="videos/update.mp4" type="video/mp4">
+お使いのブラウザは動画の再生に対応していません。
+</video>
