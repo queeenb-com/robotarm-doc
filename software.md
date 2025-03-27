@@ -1,4 +1,4 @@
-# ソフトウェアマニュアル
+# 2. ソフトウェアマニュアル
 
 ## 目次
 - [起動方法](#起動方法)
@@ -105,8 +105,24 @@ http://queeenb.local:5000
 お使いのブラウザは動画の再生に対応していません。
 </video>
 
+実行中に急遽ロボットを止めたいときは、緊急停止ボタンをおして対応してください。詳しくは[こちら](../docs/hardware.md#土台と周辺部品機器の説明と配置について)をごらんください。
 
+### 3. 通知機能をオンにする
 
+![](images\discrip-ver2.0-controlingpage.png)<br>
+制御ページに移動すると、左下に通知機能をオンにすることができます。
+
+具体的にはメール通知を有効にするをチェックし、メールアドレスを入力して「保存」を押します。
+
+![](images\discrip-ver1.0-mail.png)
+
+こちらを実施したのちは、自動化のノードを実行し終わる度に入力したメールアドレスにて通知が行きます。
+<div style="border-left: 4px solid #ffd700; background:rgb(230, 210, 172); padding: 15px; margin: 20px 0; border-radius: 5px;">
+  <p style="margin: 0; font-size: 1.1em;">
+    💡 <strong>Tips:</strong> <br>
+    保存の右のテスト送信を行うことで実際に届くかどうか確認することができます！<br>
+  </p>
+</div>
 
 ## アップデート方法
 
@@ -122,19 +138,49 @@ http://queeenb.local:5000
 
 
 ## トラブルシューティング
-- アプリケーションから接続に失敗する。接続できない。
-   - 本体は起動していますか？
-      - ロボットの本体の電源を確認する
-      - ロボットとPCのケーブルが抜けていないか確認する
-   - アプリケーションは起動していますか？
-      - 一度すべてのウィンドウを閉じ、アプリケーションを再起動してみてください。
 
-- 別PCからアクセスできない
-   - （制御用PC）ネットワークに接続されていますか？
-      - 制御用PCをWi-Fi経由でネットワークに接続してください。
-   - （操作用の別PC）制御用PCと同じネットワークに接続されていますか？
-      - 別ネットワークからのリモート操作はセキュリティの観点からできません。
-      - 同じネットワークに接続してください。
-   - 同一LAN内での相互アクセスが許可されていますか？
-      - お使いのネットワークの管理者にご確認ください。
+### 問題1: アプリケーションから接続に失敗する・接続できない
+
+<div style="border-left: 4px solid #e74c3c; background: #fadbd8; padding: 15px; margin: 20px 0; border-radius: 5px;">
+  <details>
+    <summary style="font-weight: bold; cursor: pointer;">本体は起動していますか？</summary>
+    <div style="padding: 10px 20px;">
+      ✅ ロボットの本体の電源を確認する<br>
+      ✅ ロボットとPCのケーブルが抜けていないか確認する
+    </div>
+  </details>
+  
+  <details>
+    <summary style="font-weight: bold; cursor: pointer;">アプリケーションは起動していますか？</summary>
+    <div style="padding: 10px 20px;">
+      ⚠️ 一度すべてのウィンドウを閉じ、アプリケーションを再起動してみてください。
+    </div>
+  </details>
+</div>
+
+### 問題2: 別PCからアクセスできない
+
+<div style="border-left: 4px solid  #e74c3c; background: #fadbd8; padding: 15px; margin: 20px 0; border-radius: 5px;">
+  <details>
+    <summary style="font-weight: bold; cursor: pointer;">（制御用PC）ネットワークに接続されていますか？</summary>
+    <div style="padding: 10px 20px;">
+      ✅ 制御用PCをWi-Fi経由でネットワークに接続してください。
+    </div>
+  </details>
+  
+  <details>
+    <summary style="font-weight: bold; cursor: pointer;">（操作用の別PC）制御用PCと同じネットワークに接続されていますか？</summary>
+    <div style="padding: 10px 20px;">
+      ⚠️ 別ネットワークからのリモート操作はセキュリティの観点からできません。<br>
+      ✅ 同じネットワークに接続してください。
+    </div>
+  </details>
+  
+  <details>
+    <summary style="font-weight: bold; cursor: pointer;">同一LAN内での相互アクセスが許可されていますか？</summary>
+    <div style="padding: 10px 20px;">
+      ⚠️ お使いのネットワークの管理者にご確認ください。
+    </div>
+  </details>
+</div>
    
