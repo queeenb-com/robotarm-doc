@@ -7,7 +7,7 @@
 
 ## 2. 配布されているテンプレートの説明
 コロニーピッキングを想定したテンプレートをご説明します。
-![sample nodes](/images/nodedetails_samplenodes.png)
+![sample nodes](images/nodedetails_samplenodes.png)
 基本的には右に行くほど次のノードに進み、縦はループにおけるノードの実施順を表します。一番左のノードから説明をしていきます。
 
 
