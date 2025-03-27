@@ -32,11 +32,11 @@
 
 ## 土台と周辺部品・機器の説明と配置について
 
-**土台**<br>
+**土台アタッチメント**<br>
 こちらは複数の穴があいています。この穴に合わせて、ウェルプレート用部品やチップケース用部品の下面にある隆起部分を合わせることで、部品を土台の上で**固定できます**。
 
-**周辺部品・機器**<br>
-部品としては、ウェルプレートなど用に設置できるケースがあります。<br>それだけでなく、**緊急停止ボタン**もついております。これはロボットが動いているときに押すと止めることができます。
+**周辺アタッチメント・機器**<br>
+アタッチメントとしては、ウェルプレートなど用に設置できるケースやロボットアームの先にある先端アタッチメントがあります。<br>それだけでなく、**緊急停止ボタン**もついております。これはロボットが動いているときに押すと止めることができます。
 
 緊急停止ボタンは、ロボットアームが動いている最中に停止させたい時に利用します。押すと**けたたましいエラー音がなります**が、冷静にご対応ください。押したあとは二つのことを**順に**していただくと再度ロボットが使えるようになります。
 
@@ -44,6 +44,9 @@
 2. その後、ソフトウェア側の「アラーム発生」をクリックし、アラームをクリアする。
 
 順番を仮に間違えてしまった場合は、再度順番通りに実施すると元に戻ります。
+
+### 周辺部品の交換方法
+
 
 ### 配置について
 配置については個別のプロトコルに合わせて配置してください。
@@ -84,3 +87,19 @@
   </details>
 </div>
 
+## クイックナビゲーション
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
+  <a href="readme.md" style="display: block; padding: 10px 15px; background: #3498db; color: white; text-decoration: none; border-radius: 5px; min-width: 150px; text-align: center;">
+    📖 メインガイド
+  </a>
+  <a href="hardware.md" style="display: block; padding: 10px 15px; background: #e74c3c; color: white; text-decoration: none; border-radius: 5px; min-width: 150px; text-align: center;">
+    🔧 ハードウェアマニュアル
+  </a>
+  <a href="nodesdetails.md" style="display: block; padding: 10px 15px; background: #2ecc71; color: white; text-decoration: none; border-radius: 5px; min-width: 150px; text-align: center;">
+    🧩 ノード詳細ガイド
+  </a>
+  <a href="protocol/colonypicking.md" style="display: block; padding: 10px 15px; background: #9b59b6; color: white; text-decoration: none; border-radius: 5px; min-width: 150px; text-align: center;">
+    🧪 コロニーピッキング
+  </a>
+</div>
