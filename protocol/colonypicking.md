@@ -17,8 +17,8 @@ img {
 
 
 ## 2. 配布されているテンプレートの説明
-コロニーピッキングを想定したテンプレートをご説明します。
-<img src="../images/nodedetails-samplenodes.png" alt="sample nodes" height="300">
+コロニーピッキングを想定したテンプレートをご説明します。<br>
+<img src="../images/nodedetails-samplenodes.png" alt="sample nodes" height="300"><br>
 基本的には右に行くほど次のノードに進み、縦はループにおけるノードの実施順を表します。一番左のノードから説明をしていきます。
 
 
