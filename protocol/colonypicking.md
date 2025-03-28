@@ -70,11 +70,14 @@ img {
 ## クイックナビゲーション
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
-  <a href="readme.html" style="display: block; padding: 10px 15px; background: #3498db; color: white; text-decoration: none; border-radius: 5px; min-width: 150px; text-align: center;">
+  <a href="" style="display: block; padding: 10px 15px; background: #3498db; color: white; text-decoration: none; border-radius: 5px; min-width: 150px; text-align: center;">
     📖 メインガイド
   </a>
   <a href="hardware.html" style="display: block; padding: 10px 15px; background: #e74c3c; color: white; text-decoration: none; border-radius: 5px; min-width: 150px; text-align: center;">
     🔧 ハードウェアマニュアル
+  </a>
+  <a href="software.html" style="display: block; padding: 10px 15px; background: #f39c12; color: white; text-decoration: none; border-radius: 5px; min-width: 150px; text-align: center;">
+    💻 ソフトウェアマニュアル
   </a>
   <a href="nodesdetails.html" style="display: block; padding: 10px 15px; background: #2ecc71; color: white; text-decoration: none; border-radius: 5px; min-width: 150px; text-align: center;">
     🧩 ノード詳細ガイド
