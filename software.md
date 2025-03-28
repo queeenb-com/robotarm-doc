@@ -1,3 +1,15 @@
+<style>
+img {
+    height: 400px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+</style>
+
 # 2. ソフトウェアマニュアル
 
 ## 目次
@@ -26,11 +38,11 @@ http://queeenb.local:5000
 
 ## アプリケーションとロボットを立ち上げて、両者を接続する
 ### 1. デスクトップアイコンの起動
-デスクトップにあるアイコンをダブルクリックします。  
-![デスクトップアイコン](./images/desktop_icon.png)<br>
+デスクトップにあるアイコンをダブルクリックします。 <br> 
+<img src="./images/desktop_icon.png" alt="デスクトップアイコン" height="300"><br>
 
-アプリケーションが開くと下記のような状態になります。
-![](images/discrip-ver1.0-fisrtpage.png)<br>
+アプリケーションが開くと下記のような状態になります。<br>
+<img src="images/discrip-ver1.0-fisrtpage.png" alt="初期画面" height="300"><br>
 
 
 > **注意**
@@ -39,43 +51,41 @@ http://queeenb.local:5000
 <br>
 
 ### 2. 接続
-まずロボットを起動するために、向かって右にある赤いボタンを押します。
+まずロボットを起動するために、向かって右にある赤いボタンを押します。<br>
+<img src="images/discrip-ver1.0-notconnection.png" alt="ロボットの右側のボタンの画像" height="300"><br>
 
-![ロボットの右側のボタンの画像を入れる](images/discrip-ver1.0-notconnection.png)
-
-左上の三つのボタンから「制御」のボタンをクリックして下記のページに移動します。
-
-![](images/discrip-ver1.0-controlingpage.png)<br>
+左上の三つのボタンから「制御」のボタンをクリックして下記のページに移動します。<br>
+<img src="images/discrip-ver1.0-controlingpage.png" alt="制御ページ" height="300"><br>
 
 
-左上のバーの中に「接続」というボタンを押してください。
+左上のバーの中に「接続」というボタンを押してください。<br>
 
 ![ロボットの右側のボタンの画像を入れる](images/discrip-ver1.0-notconnection.png)
 
 <br>
 <br>
 
-下記のように「成功」と表示されれば接続は完了です。
+下記のように「成功」と表示されれば接続は完了です。<br>
 
 ![成功したときの画像を入れる](images/discrip-ver1.0-conectionclear.png)
-  
+<br>
 
 
 ## 自動化を行う
 自動化を行うためには大きく分けて二つの動作が必要です。
 
 - 自動化のプロトコルをノードなどを用いて図表化する
-- 繰り返し回数を
+- 実行ボタンを押し、四隅を確認した後に、ループ回数を入力する
 
 ### 1. 自動化プロトコルを準備する
 #### a. テンプレートかされた自動化のプロトコルを使う（配布されているjson ファイルを使って自動化を実施する）
-配布された自動化プロトコルを実行する際には、右上にある「ロード」ボタンを押します。
+配布された自動化プロトコルを実行する際には、右上にある「ロード」ボタンを押します。<br>
 
-![右上の三つのボタンの画像](images/discrip-ver1.0-beforeaddingnodes.png)
+![右上の三つのボタンの画像](images/discrip-ver1.0-beforeaddingnodes.png)<br>
 
-そうするとファイルを選択する画面へと切り替わるので、配布されたjson ファイルを選択します。
+そうするとファイルを選択する画面へと切り替わるので、配布されたjson ファイルを選択します。<br>
 
-![json ファイルを選択した画面](images/discrip-ver1.0-addingjsonfile.png)
+![json ファイルを選択した画面](images/discrip-ver1.0-addingjsonfile.png)<br>
 
 これで自動化プロトコルを図表化して用意できました。
 
@@ -87,13 +97,13 @@ http://queeenb.local:5000
 >このアプリケーションではロボットの動作の一つ一つを「ノード」として図表化することで実施ができます。
 
 ノードを用いて自分だけの自動化プロトコルを作ってみましょう。<br>
-たとえば右側の中にある「移動系」をクリックすると 「指定座標移動」と「チップ排出」というノードを追加することができます。追加するためには、追加したいノードを押しながらドラッグアンドドロップを右側のドット方眼の方に追加してみましょう。
+たとえば右側の中にある「移動系」をクリックすると 「指定座標移動」と「チップ排出」というノードを追加することができます。追加するためには、追加したいノードを押しながらドラッグアンドドロップを右側のドット方眼の方に追加してみましょう。<br>
 ![](images/discrip-ver1.0-nodes.png)<br>
 
 <video width="640" controls>
 <source src="videos/discrip-ver1.0-draganddrop.mp4" type="video/mp4">
 お使いのブラウザは動画の再生に対応していません。
-</video>
+</video><br>
 
 左側のノードを追加して組み合わせることでにあるノードを組み合わせて自分だけの自動化のプロトコルを作ることができます。
 
@@ -105,11 +115,12 @@ http://queeenb.local:5000
 自動化のプロトコルがノードによって表現できたあとは実行です。
 
 右下の実行ボタンを押すことで実際にロボットがノードに従って自動化のプロトコルを実施します。
-
+<br>
 <video width="640" controls>
 <source src="videos/discrip-ver1.0-execution.mp4" type="video/mp4">
 お使いのブラウザは動画の再生に対応していません。
 </video>
+<br>
 
 実行中に急遽ロボットを止めたいときは、緊急停止ボタンをおして対応してください。詳しくは[こちら](../docs/hardware.md#土台と周辺部品機器の説明と配置について)をごらんください。
 
@@ -136,13 +147,13 @@ http://queeenb.local:5000
 2. ダウンロードしたzipファイルを展開します。
 3. 展開したフォルダを、デスクトップにドラッグアンドドロップします。
 4. 「置き換え」を選択して更新を完了します。
-
+<br>
 <video width="640" controls>
 <source src="videos/update.mp4" type="video/mp4">
 お使いのブラウザは動画の再生に対応していません。
 </video>
 
-
+<br>
 ## トラブルシューティング
 
 ### 問題1: アプリケーションから接続に失敗する・接続できない
