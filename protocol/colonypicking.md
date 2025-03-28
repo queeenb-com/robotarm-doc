@@ -1,14 +1,3 @@
-<style>
-img {
-    height: 400px;
-    width: auto;
-    object-fit: contain;
-    display: block;
-    margin: 20px auto;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-</style>
 # コロニーピッキングプロトコルの自動化の説明
 
 ## 1. コロニーピッキングの説明

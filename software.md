@@ -1,15 +1,3 @@
-<style>
-img {
-    height: 400px;
-    width: auto;
-    object-fit: contain;
-    display: block;
-    margin: 20px auto;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-</style>
-
 # 2. ソフトウェアマニュアル
 
 ## 目次
@@ -99,7 +87,7 @@ http://queeenb.local:5000
 ノードを用いて自分だけの自動化プロトコルを作ってみましょう。<br>
 たとえば右側の中にある「移動系」をクリックすると 「指定座標移動」と「チップ排出」というノードを追加することができます。追加するためには、追加したいノードを押しながらドラッグアンドドロップを右側のドット方眼の方に追加してみましょう。<br>
 ![](images/discrip-ver1.0-nodes.png)<br>
-
+<br>
 <video width="640" controls>
 <source src="videos/discrip-ver1.0-draganddrop.mp4" type="video/mp4">
 お使いのブラウザは動画の再生に対応していません。
@@ -130,9 +118,9 @@ http://queeenb.local:5000
 制御ページに移動すると、左下に通知機能をオンにすることができます。
 
 具体的にはメール通知を有効にするをチェックし、メールアドレスを入力して「保存」を押します。
-
+<br>
 ![](images\discrip-ver1.0-mail.png)
-
+<br>
 こちらを実施したのちは、自動化のノードを実行し終わる度に入力したメールアドレスにて通知が行きます。
 <div style="border-left: 4px solid #ffd700; background:rgb(230, 210, 172); padding: 15px; margin: 20px 0; border-radius: 5px;">
   <p style="margin: 0; font-size: 1.1em;">
