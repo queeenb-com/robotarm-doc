@@ -18,7 +18,7 @@
 ## 電源の入れ方
 
 ロボットアームの土台側面にある赤色の電源スイッチを「ON」の位置に切り替えます。電源がついた時は、土台の角にあるライトが光ります。
-![ロボットアーム電源](./_images/robot_power.png)
+![ロボットアーム電源](./images\discript-robotswitch.png)
 <div style="border-left: 4px solid #ffd700; background:rgb(230, 210, 172); padding: 15px; margin: 20px 0; border-radius: 5px;">
   <p style="margin: 0; font-size: 1.1em;">
     💡 <strong>Tips:</strong> かならず緊急停止ボタンが上に上がった状態であることを確認してください。<br>
@@ -28,7 +28,7 @@
 
 
 本体の緑色のボタンを押して本体を起動します。電源がつくと中心が白く光ります。 
-![PC電源](./_images/pc_power.png)
+![PC電源](./images\discript-pcswitch.png)
 
 ## 土台と周辺部品・機器の説明と配置について
 
