@@ -39,10 +39,10 @@ http://queeenb.local:5000
 ## アプリケーションとロボットを立ち上げて、両者を接続する
 ### 1. デスクトップアイコンの起動
 デスクトップにあるアイコンをダブルクリックします。  
-![デスクトップアイコン](./images/desktop_icon.png)<br>
+<img src="./images/desktop_icon.png" alt="デスクトップアイコン" height="300">
 
 アプリケーションが開くと下記のような状態になります。
-![](images/discrip-ver1.0-fisrtpage.png)<br>
+<img src="images/discrip-ver1.0-fisrtpage.png" alt="初期画面" height="300">
 
 
 > **注意**
@@ -52,12 +52,10 @@ http://queeenb.local:5000
 
 ### 2. 接続
 まずロボットを起動するために、向かって右にある赤いボタンを押します。
-
-![ロボットの右側のボタンの画像を入れる](images/discrip-ver1.0-notconnection.png)
+<img src="images/discrip-ver1.0-notconnection.png" alt="ロボットの右側のボタンの画像" height="300">
 
 左上の三つのボタンから「制御」のボタンをクリックして下記のページに移動します。
-
-![](images/discrip-ver1.0-controlingpage.png)<br>
+<img src="images/discrip-ver1.0-controlingpage.png" alt="制御ページ" height="300">
 
 
 左上のバーの中に「接続」というボタンを押してください。
