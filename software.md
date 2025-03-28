@@ -1,3 +1,15 @@
+<style>
+img {
+    height: 400px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+</style>
+
 # 2. ソフトウェアマニュアル
 
 ## 目次
