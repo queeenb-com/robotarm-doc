@@ -71,7 +71,7 @@
   <a href="/robotarm-doc/nodesdetails.html" style="display: block; padding: 10px 15px; background: #2ecc71; color: white; text-decoration: none; border-radius: 5px; min-width: 150px; text-align: center;">
     🧩 ノード詳細ガイド
   </a>
-  <a href="/robotarm-doc/protocol/colonypicking.html" style="display: block; padding: 10px 15px; background: #9b59b6; color: white; text-decoration: none; border-radius: 5px; min-width: 150px; text-align: center;">
+  <a href="colonypicking.html" style="display: block; padding: 10px 15px; background: #9b59b6; color: white; text-decoration: none; border-radius: 5px; min-width: 150px; text-align: center;">
     🧪 コロニーピッキング
   </a>
 </div>
