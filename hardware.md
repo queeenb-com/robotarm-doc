@@ -88,6 +88,11 @@
   </details>
 </div>
 
+## サポート情報
+製品のご意見やフィードバックは[こちら](https://forms.gle/KhQCS1gYCF6BUkbf7)にご投稿ください。<br>
+問題が発生した場合は、info( at mark) queeen-b.com までご連絡ください。
+
+
 ## クイックナビゲーション
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
